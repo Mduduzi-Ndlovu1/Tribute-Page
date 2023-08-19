@@ -1,0 +1,211 @@
+@font-face {
+    font-family: League;
+    src: url(./assets/fonts/League.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: League ;
+}
+body{
+    background: url(./assets/img/Saint-League-of-Legends.jpeg) no-repeat center center fixed ;
+    background-size: cover;
+    height: 100%;
+    background-color: gray;
+    background-blend-mode:multiply;
+}
+/* header seciton  */
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+
+}
+.head-banner {
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 20px;
+
+}
+.header-img {
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 0 10px; */
+
+    flex: 1;
+}
+
+.banner-logo {
+    width: 100px;
+    height: auto;
+}
+
+.triangle-container {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    
+}
+
+.triangle-logo{
+    height: auto;
+    width: 70px;
+    border-radius: 50%;
+    
+}
+.tri-img {
+    margin: 0 20px;
+}
+
+.tri-img:first-child , .tri-img:last-child {
+    margin: 40px -10px 0px -10px;
+}
+.title {
+    flex: 1;
+    text-align: right;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+/* Title section */
+.title-header {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    text-align: center;
+    margin: 10px;
+    width: auto;
+    padding: 20px;
+}
+
+.title-container{
+    background-color:  rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border: 1.5px solid  rgba(255, 255, 255, 0.479);
+    border-radius: 8px;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* history section */
+.content-container  {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 5px;
+}
+
+.section{
+    flex: 1;
+    padding: 20px;
+    border: 1.5px solid  rgba(255, 255, 255, 0.479);
+    border-radius: 5px;
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.555);
+
+
+}
+
+.section p {
+    margin-top: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.section img {
+    margin-top: 20px;
+    max-width: 50%;
+    margin-right: 20px;
+    border-radius: 10px;
+    float: left;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* lesson div  */
+.lesson .section h2 {
+text-align: center;
+position: relative;
+}
+
+.lesson .section h2::before{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 40%;
+    height: 4px;
+    background-color: #ffffff;
+}
+
+
+
+.lesson .section {
+    background-color: rgba(43, 43, 43, 0.555);
+
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* some customs my boi */
+.inner-text-container {
+    display: flexbox;
+    justify-content: center;
+    padding: 20px;
+    overflow: hidden;
+    float: right;
+    
+}
+
+.inner-text{
+    padding: 20px;
+    border: 1.5px solid  rgba(255, 255, 255, 0.479);
+    border-radius: 5px;
+    color: rgb(0, 0, 0); 
+    
+    margin-bottom: 20px;
+
+    background-color: rgb(0, 0, 0);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    
+
+}
+
+.inner-text:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+.inner-container {
+    display: flex;
+    justify-content: space-between;
+}
+ .p-div {
+    margin-top: 20px;
+    padding: 2px 10px 20px 10px;
+    display: flex;
+    border: 1.5px solid  rgba(255, 255, 255, 0.479);
+    border-radius: 5px;
+ }
+
+ .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .large {
+    height:300px ;
+ }
+ /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
